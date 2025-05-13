@@ -1,0 +1,76 @@
+/* Signup.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 👈 Vertically center */
+    height: 100vh;        /* Full viewport height */
+    background-color: #181d24;
+  }
+
+  .success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .signup-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  

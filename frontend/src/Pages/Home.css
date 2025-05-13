@@ -1,0 +1,44 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    padding: 1rem 2rem;
+    color: #fff;
+  }
+  
+  .navbar .logo {
+    margin: 0;
+  }
+  
+  .navbar .button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar .signupButton {
+    background-color: #21a0a0;
+    color: white;
+  }
+  
+  /* Welcome Section Styles */
+  .header {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
